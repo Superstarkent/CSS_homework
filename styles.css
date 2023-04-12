@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/FROGGY.jpg);
+
+}
+
+.container {
+    display: flex;
+    background-color: #DDFFBB;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.flex-item {
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.flex-item a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #FF6000;
+    margin-top: 10px;
+    
+}
+
+.item1 {
+position: absolute;
+left: 200px;
+font-size: 50px;
+color: #FF6000;
+
+}
+
+.item2 {
+    margin-left: auto;
+    
+}
+
+.Main {
+    text-align: left;
+    margin-top: 370px;
+    margin-left: 700px;
+    justify-content: center;
+    color: #FC2947;
+}
+
+.Main h1 {
+    font-size: 60px;
+}
+
+.Main p {
+    font-size: 30px
+}
+
+.Button {
+    background-color: #FC2947;
+    display: block;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    border-color: white;
+
+}
+
+.container2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 0;
+width: 2000px;
+}
+
+.box1 {
+height: 400px;
+width: 450px;
+background-color: #FC2947;
+text-align: center;
+color: white;
+}
+
+.box2 img {
+height: 400px;
+width: 900px;
+
+
+}
+
+.box3 {
+width: 450px;
+background-color: #FF6000;
+text-align: center;
+color: white;
+padding: 100px;
+height: 200px;
+}
+
+.box4 {
+    background-color: #3C486B;
+    height: 200px;
+    width: 1000px;
+    color: white;
+
+}
+
+.box5 img {
+    height: 200px;
+    width: 300px;
+
+}
+
+.box6 {
+    background-color:#CE5959;
+    color: white;
+    width: 700px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1800px;
+    height: 800px;
+}
+
+.object1 {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+
+
+.object2 {
+    background-color: blue;
+    height: 400px;
+    width: 600px;
+}
+
+.object3 {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.parent-wrapper {
+height: 100%;
+width: 100%;
+justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.double {
+    background-color: #FC2947;
+}
